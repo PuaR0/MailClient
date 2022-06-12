@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		5E282CEE28540F8A00546A2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E282CED28540F8A00546A2F /* AppDelegate.swift */; };
 		5E282CF028540F8A00546A2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E282CEF28540F8A00546A2F /* SceneDelegate.swift */; };
-		5E282CF228540F8A00546A2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E282CF128540F8A00546A2F /* ViewController.swift */; };
-		5E282CF528540F8A00546A2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E282CF328540F8A00546A2F /* Main.storyboard */; };
+		5E282CF228540F8A00546A2F /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E282CF128540F8A00546A2F /* VerificationViewController.swift */; };
 		5E282CF728540F8A00546A2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E282CF628540F8A00546A2F /* Assets.xcassets */; };
 		5E282CFA28540F8A00546A2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E282CF828540F8A00546A2F /* LaunchScreen.storyboard */; };
+		5E391B052854502C00985229 /* String + Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E391B042854502C00985229 /* String + Extention.swift */; };
+		5E391B082854653E00985229 /* MailApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E391B072854653E00985229 /* MailApiKey.swift */; };
+		5E391B0A2854672600985229 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E391B092854672600985229 /* NetworkRequest.swift */; };
+		5E391B0C28546BEE00985229 /* MailResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E391B0B28546BEE00985229 /* MailResponseModel.swift */; };
+		5E391B0E2854702000985229 /* NetworkDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E391B0D2854702000985229 /* NetworkDataFetch.swift */; };
+		5E391B10285474D800985229 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E391B0F285474D800985229 /* Alerts.swift */; };
+		5E52428D285415CD001A51B7 /* StatusLbl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E52428C285415CD001A51B7 /* StatusLbl.swift */; };
+		5E524290285418DC001A51B7 /* UIStackVW + Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E52428F285418DC001A51B7 /* UIStackVW + Extention.swift */; };
+		5E52429228541A1A001A51B7 /* MailTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E52429128541A1A001A51B7 /* MailTF.swift */; };
+		5EA8A19D28542E940091017E /* VerificationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA8A19C28542E940091017E /* VerificationButton.swift */; };
+		5EA8A19F285430C40091017E /* MailsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA8A19E285430C40091017E /* MailsCollectionView.swift */; };
+		5EA8A1A22854329D0091017E /* MailCollectionVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA8A1A12854329D0091017E /* MailCollectionVCell.swift */; };
+		5EA8A1A5285446600091017E /* VerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA8A1A4285446600091017E /* VerificationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5E282CEA28540F8A00546A2F /* MailClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E282CED28540F8A00546A2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E282CEF28540F8A00546A2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5E282CF128540F8A00546A2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5E282CF428540F8A00546A2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E282CF128540F8A00546A2F /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
 		5E282CF628540F8A00546A2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E282CF928540F8A00546A2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E282CFB28540F8B00546A2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E391B042854502C00985229 /* String + Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extention.swift"; sourceTree = "<group>"; };
+		5E391B072854653E00985229 /* MailApiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailApiKey.swift; sourceTree = "<group>"; };
+		5E391B092854672600985229 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		5E391B0B28546BEE00985229 /* MailResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailResponseModel.swift; sourceTree = "<group>"; };
+		5E391B0D2854702000985229 /* NetworkDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetch.swift; sourceTree = "<group>"; };
+		5E391B0F285474D800985229 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		5E52428C285415CD001A51B7 /* StatusLbl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusLbl.swift; sourceTree = "<group>"; };
+		5E52428F285418DC001A51B7 /* UIStackVW + Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackVW + Extention.swift"; sourceTree = "<group>"; };
+		5E52429128541A1A001A51B7 /* MailTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailTF.swift; sourceTree = "<group>"; };
+		5EA8A19C28542E940091017E /* VerificationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationButton.swift; sourceTree = "<group>"; };
+		5EA8A19E285430C40091017E /* MailsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailsCollectionView.swift; sourceTree = "<group>"; };
+		5EA8A1A12854329D0091017E /* MailCollectionVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCollectionVCell.swift; sourceTree = "<group>"; };
+		5EA8A1A4285446600091017E /* VerificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,107 @@
 		5E282CEC28540F8A00546A2F /* MailClient */ = {
 			isa = PBXGroup;
 			children = (
+				5E282D0128540FEC00546A2F /* Models */,
+				5E282D032854100300546A2F /* Views */,
+				5E282D042854101000546A2F /* Controllers */,
+				5E282D062854103000546A2F /* Applications */,
+				5E282D052854101A00546A2F /* Extentions */,
+				5E391B06285464FE00985229 /* Network */,
+				5E282D072854103C00546A2F /* Resourses */,
+			);
+			path = MailClient;
+			sourceTree = "<group>";
+		};
+		5E282D0128540FEC00546A2F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5EA8A1A4285446600091017E /* VerificationModel.swift */,
+				5E391B0B28546BEE00985229 /* MailResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5E282D032854100300546A2F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5EA8A1A3285435060091017E /* VerificationVC */,
+				5EA8A1A02854326D0091017E /* Cells */,
+				5E391B0F285474D800985229 /* Alerts.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5E282D042854101000546A2F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E282CF128540F8A00546A2F /* VerificationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5E282D052854101A00546A2F /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				5E52428E285418A7001A51B7 /* UIKit */,
+				5E391B042854502C00985229 /* String + Extention.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		5E282D062854103000546A2F /* Applications */ = {
+			isa = PBXGroup;
+			children = (
 				5E282CED28540F8A00546A2F /* AppDelegate.swift */,
 				5E282CEF28540F8A00546A2F /* SceneDelegate.swift */,
-				5E282CF128540F8A00546A2F /* ViewController.swift */,
-				5E282CF328540F8A00546A2F /* Main.storyboard */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		5E282D072854103C00546A2F /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
 				5E282CF628540F8A00546A2F /* Assets.xcassets */,
 				5E282CF828540F8A00546A2F /* LaunchScreen.storyboard */,
 				5E282CFB28540F8B00546A2F /* Info.plist */,
 			);
-			path = MailClient;
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		5E391B06285464FE00985229 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5E391B072854653E00985229 /* MailApiKey.swift */,
+				5E391B092854672600985229 /* NetworkRequest.swift */,
+				5E391B0D2854702000985229 /* NetworkDataFetch.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5E52428E285418A7001A51B7 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5E52428F285418DC001A51B7 /* UIStackVW + Extention.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		5EA8A1A02854326D0091017E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5EA8A1A12854329D0091017E /* MailCollectionVCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5EA8A1A3285435060091017E /* VerificationVC */ = {
+			isa = PBXGroup;
+			children = (
+				5E52428C285415CD001A51B7 /* StatusLbl.swift */,
+				5E52429128541A1A001A51B7 /* MailTF.swift */,
+				5EA8A19C28542E940091017E /* VerificationButton.swift */,
+				5EA8A19E285430C40091017E /* MailsCollectionView.swift */,
+			);
+			path = VerificationVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +243,6 @@
 			files = (
 				5E282CFA28540F8A00546A2F /* LaunchScreen.storyboard in Resources */,
 				5E282CF728540F8A00546A2F /* Assets.xcassets in Resources */,
-				5E282CF528540F8A00546A2F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +253,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E282CF228540F8A00546A2F /* ViewController.swift in Sources */,
+				5E391B0A2854672600985229 /* NetworkRequest.swift in Sources */,
+				5EA8A1A5285446600091017E /* VerificationModel.swift in Sources */,
+				5E391B10285474D800985229 /* Alerts.swift in Sources */,
+				5E52428D285415CD001A51B7 /* StatusLbl.swift in Sources */,
+				5EA8A19F285430C40091017E /* MailsCollectionView.swift in Sources */,
+				5E391B0E2854702000985229 /* NetworkDataFetch.swift in Sources */,
+				5EA8A19D28542E940091017E /* VerificationButton.swift in Sources */,
+				5E391B052854502C00985229 /* String + Extention.swift in Sources */,
+				5E391B082854653E00985229 /* MailApiKey.swift in Sources */,
+				5E391B0C28546BEE00985229 /* MailResponseModel.swift in Sources */,
+				5EA8A1A22854329D0091017E /* MailCollectionVCell.swift in Sources */,
+				5E282CF228540F8A00546A2F /* VerificationViewController.swift in Sources */,
 				5E282CEE28540F8A00546A2F /* AppDelegate.swift in Sources */,
 				5E282CF028540F8A00546A2F /* SceneDelegate.swift in Sources */,
+				5E52429228541A1A001A51B7 /* MailTF.swift in Sources */,
+				5E524290285418DC001A51B7 /* UIStackVW + Extention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5E282CF328540F8A00546A2F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E282CF428540F8A00546A2F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5E282CF828540F8A00546A2F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,10 +409,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5V5TAGZG5N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MailClient/Info.plist;
+				INFOPLIST_FILE = MailClient/Resourses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,7 +424,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,10 +437,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5V5TAGZG5N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MailClient/Info.plist;
+				INFOPLIST_FILE = MailClient/Resourses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +452,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
